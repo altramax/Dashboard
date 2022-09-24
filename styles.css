@@ -1,0 +1,274 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container{
+    background-color: #f2f2f2;
+    display: grid;
+    padding: 3rem 2rem;
+    grid-template-columns: 1fr 4fr;
+    gap: 2rem;
+}
+
+     /* SIDEBAR */
+.sidebar{
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.sidebar-top{
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.main-logo{
+    margin-right: 0.7rem;
+    width: 2.2rem;
+}
+
+.sidebar-middle--top{
+   margin-top: 2rem ;
+}
+
+.icons{
+    background-color: #e8ebee;
+    color: #426985;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    box-shadow: hsla(0, 0%, 0%, 0.25);
+}
+
+.words{
+    padding-left: 0.5rem;
+}
+
+.sidebar-middle--bottom{
+    margin-top: 2rem;
+}
+
+.acc-stng{
+    font-size: 0.9rem;
+    margin: 3.25rem auto 1rem 0.9rem;
+}
+
+.sidebar-anchor{
+  width: 90%;
+  color: #466782;
+  display: flex;
+  align-items: center;
+  margin-top: 1.48rem;
+}
+
+.sidebar-anchor:hover{
+  color: #00396a;
+  font-weight: bold;
+}
+
+.sidebar-anchor:hover .icons{
+    color: #fff;
+    background-color: #00396a;
+}
+
+.sidebar-bottom{
+    background-image: url(./images/btm-img.png);
+    background-size: 100% 100%;
+    background-color: #BFBFBF;
+    padding: 0.8rem;
+    margin-top: 12rem;
+    border-radius: 0.5rem;
+}
+
+.sidebar-bottom--text{
+    margin: 1rem 0;
+}
+
+.btn{
+   font-weight: bold;
+  width: 100%;  
+  padding: 0.3rem 0;
+}
+
+
+   /* MAIN */
+.main{
+    padding-top: 3.5rem;
+}
+
+    /* TODAY'S MONEY */
+.today-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+}
+
+.today{
+    width: 21%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 0.8rem;
+    border-radius: 1rem;
+}
+
+.money{
+    color: #67748E;
+    font-weight:600;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.amount{
+    color: #252F40;
+    font-size: 1.2rem;
+}
+
+.small{
+    color: #82D616;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+   /* ARTICLE */
+.article{
+    margin-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1rem;
+}
+
+.article-one{
+    background-color: #fff;
+    color: #67748E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.dark-strong{
+    font-weight: bold;
+    color: #000;
+}
+
+.article-one--text{
+    line-height: 1.7rem;
+    width: 50%;
+}
+
+.font{
+    font-size: 1.25rem;
+    padding: 0.5rem 0;
+}
+
+.art-one{
+    padding: 0.5rem 0 1rem 0;
+}
+
+.art-two{
+    padding: 0 0 3rem 0;
+}
+
+#background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.article-two{
+    padding: 0.8rem 1rem;
+    line-height: 1.5rem;
+    width: 94%;
+    color: #fff;
+    background-image: url(./images/article\ 2.png);
+    background-size: 100% 100%;
+    border-radius: 1rem;
+}
+
+   /* CHART */
+
+   .chart{
+    margin-top: 1.45rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1rem;
+   }
+
+   .barchart{
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+   }
+
+   .barchart-texts{
+     padding: 2rem 0.7rem 0 0.7rem;
+   }
+
+   .barchart-texts--1{
+     color: #252F40;
+     padding-bottom: 0.2rem;
+   }
+
+   .dark-color{
+     color: #252F40;
+   }
+
+   .barchart-lower--group1, .barchart-lower--group2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.7rem;
+   }
+
+   .lower--group1{
+     margin-top: 2.5rem;
+     display: flex;
+   }
+
+   .lower--group1--name{
+    padding-left: 0.3rem;
+   }
+
+   .lower--group2{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+   }
+
+   .large-text{
+    color: #252F40;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+   }
+
+   .graph{
+    padding: 1.7rem;
+    background-color: #fff;
+    border-radius: 1rem;
+   }
+
+   .graph-count{
+    display: block;
+     color: #67748E;
+     padding-top: 0.5rem;
+   }
+
+   .graph-img{
+    padding-top: 4rem;
+   }
+  
+
