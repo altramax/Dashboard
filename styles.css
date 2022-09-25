@@ -60,7 +60,7 @@
 }
 
 .sidebar-anchor{
-  width: 90%;
+  width: 100%;
   color: #466782;
   display: flex;
   align-items: center;
@@ -269,6 +269,107 @@
 
    .graph-img{
     padding-top: 4rem;
+   }
+
+
+       /* DETAILS */
+
+   .details{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+   }
+
+   .projects{
+    padding: 2rem 1rem;
+    font-size: 0.8rem;
+   }
+   
+   .project-header{
+    padding: 0 0.6rem;
+    padding-bottom: .5rem;
+   }
+
+   .project-header h3{
+    margin-bottom: 0.7rem;
+   }
+
+   .expenditure{
+    padding: 0.5rem 0.6rem;
+    margin-bottom: 1rem;
+   }
+
+   .blue{
+    color: #17C1E8;
+   }
+   .income , .expenses{
+    margin-right: 2rem;
+    padding-bottom: 0.5rem;
+   }
+   .income:hover , .expenses:hover{
+    border-bottom: 0.2rem solid #67748E;
+   }
+
+   .usd{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: end;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+   }
+
+   .space{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   }
+
+   .usd:hover{
+    background-color: #FAFAFA;
+   }
+
+   .usd:hover .dot{
+     background-color: #8392AB;
+     color: #fff;
+  
+   }
+
+   .flag{
+    margin-right: 0.8rem;
+   }
+
+   .country{
+    
+   }
+
+   .green{
+     color: #17AD37;
+   }
+
+   .gray{
+    color: #8392AB;
+   }
+
+   .time{
+   
+   }
+
+   .date{
+
+   }
+
+   .dot{
+    border-radius: 0.5rem;
+   }
+
+   /* ACTIVITIES */
+
+   .activities{
+    background-color: #fff;
+    padding: 1rem;
    }
   
 
