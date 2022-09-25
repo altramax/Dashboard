@@ -19,7 +19,8 @@
 .sidebar{
     background-color: #ffffff;
     padding: 1.5rem;
-    border-radius: 0.5rem;
+    border-radius: 1 rem;
+    height: fit-content;
 }
 
 .sidebar-top{
@@ -81,7 +82,7 @@
     background-image: url(./images/btm-img.png);
     background-size: 100% 100%;
     background-color: #BFBFBF;
-    padding: 0.8rem;
+    padding: 1rem;
     margin-top: 12rem;
     border-radius: 0.5rem;
 }
@@ -92,8 +93,15 @@
 
 .btn{
    font-weight: bold;
-  width: 100%;  
-  padding: 0.3rem 0;
+   width: 100%;  
+   padding: 0.5rem 0;
+   background-color: #fff;
+   border-radius: 0.5rem;
+   border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
 }
 
 
@@ -307,6 +315,7 @@
     padding-bottom: 0.5rem;
    }
    .income:hover , .expenses:hover{
+    cursor: pointer;
     border-bottom: 0.2rem solid #67748E;
    }
 
@@ -320,6 +329,12 @@
     margin-bottom: 1rem;
    }
 
+   .usd:hover{
+    background-color: #FAFAFA;
+    cursor: pointer;
+   }
+
+
    .space{
     width: 100%;
     display: flex;
@@ -327,22 +342,13 @@
     align-items: center;
    }
 
-   .usd:hover{
-    background-color: #FAFAFA;
-   }
-
    .usd:hover .dot{
      background-color: #8392AB;
      color: #fff;
-  
    }
 
    .flag{
     margin-right: 0.8rem;
-   }
-
-   .country{
-    
    }
 
    .green{
@@ -351,14 +357,6 @@
 
    .gray{
     color: #8392AB;
-   }
-
-   .time{
-   
-   }
-
-   .date{
-
    }
 
    .dot{
@@ -370,6 +368,14 @@
    .activities{
     background-color: #fff;
     padding: 1rem;
+    border-radius: 1rem;
+   }
+
+   .activities h3{
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    margin: 1rem 0 6rem 0;
    }
   
 
